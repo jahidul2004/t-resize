@@ -12,17 +12,26 @@ const Footer = () => {
                 </div>
                 <ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8">
                     <li>
-                        <a rel="noopener noreferrer" href="#">
+                        <a
+                            rel="noopener noreferrer"
+                            href="https://www.facebook.com/jahidul.islam.941620"
+                        >
                             Facebook
                         </a>
                     </li>
                     <li>
-                        <a rel="noopener noreferrer" href="#">
-                            Twitter
+                        <a
+                            rel="noopener noreferrer"
+                            href="https://www.linkedin.com/in/islam-jahidul-jihad"
+                        >
+                            Linkedin
                         </a>
                     </li>
                     <li>
-                        <a rel="noopener noreferrer" href="#">
+                        <a
+                            rel="noopener noreferrer"
+                            href="https://jahiduljihad.netlify.app/"
+                        >
                             Portfolio
                         </a>
                     </li>
