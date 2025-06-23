@@ -1,8 +1,11 @@
+import Navbar from "./components/navbar/Navbar";
+
 function App() {
 
     return (
         <div>
-          <h1>T Resize</h1>
+          {/* Navbar */}
+          <Navbar></Navbar>
         </div>
     );
 }
