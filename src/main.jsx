@@ -4,6 +4,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 import Resizer from "./pages/resizer/Resizer";
+import About from "./pages/about/About";
 
 const router = createBrowserRouter([
     {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
                 path: "/",
                 element: <Resizer></Resizer>,
             },
+            {
+                path:"/about",
+                element:<About></About>
+            }
         ],
     },
 ]);
