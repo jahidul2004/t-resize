@@ -138,14 +138,14 @@ const Resizer = () => {
 
     return (
         <div className="max-w-3xl mx-auto px-4 py-8">
-            <div className="card bg-base-200 shadow-xl p-6 space-y-6">
+            <div className="card bg-base-200 shadow-2xl p-6 space-y-6">
                 {/* Upload Area */}
                 <div
                     className={`border-2 border-dashed rounded-lg flex flex-col justify-center items-center cursor-pointer transition-all duration-300 ${
                         isDragging
                             ? "border-[#00b795] bg-base-300 scale-[1.01]"
                             : "border-[#00b795]/50 hover:border-[#00b795]"
-                    } ${previewUrl ? "h-auto p-4" : "h-60"}`}
+                    } ${previewUrl ? "h-auto p-4" : "h-40"}`}
                     onClick={openFileDialog}
                     onDrop={handleDrop}
                     onDragOver={handleDragOver}
@@ -227,8 +227,8 @@ const Resizer = () => {
                         </div>
                     </div>
 
-                    <div className="flex items-center justify-between">
-                        <div className="form-control">
+                    <div className="flex flex-col gap-6 md:flex-row items-center justify-between">
+                        <div className="w-full md:w-max order-2 md:order-1 form-control">
                             <label className="btn py-3 cursor-pointer label flex items-center gap-2">
                                 <button
                                     type="button"
@@ -249,7 +249,7 @@ const Resizer = () => {
                             </label>
                         </div>
 
-                        <div className="form-control w-48">
+                        <div className="w-full md:w-max order-1 md:order-2 form-control">
                             <label className="label p-0">
                                 <span className="label-text font-medium">
                                     Target Size (KB)
