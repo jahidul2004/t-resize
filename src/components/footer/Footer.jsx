@@ -7,7 +7,7 @@ const Footer = () => {
                         <h1 className="text-xl font-bold text-white">T</h1>
                     </div>
                     <h3 className="text-xl md:text-2xl lg:text-3xl">
-                        T-Resizer
+                        T-Resize
                     </h3>
                 </div>
                 <ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8">
