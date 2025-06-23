@@ -118,6 +118,7 @@ const Resizer = () => {
             }
             setResizedImageUrl(resized);
         };
+        img.crossOrigin = image?.type === "image/jpeg" ? "anonymous" : "";
         img.src = URL.createObjectURL(image);
     };
 
@@ -329,7 +330,7 @@ const Resizer = () => {
 
                             <button
                                 onClick={handleDownload}
-                                className="btn btn-success text-white mt-4"
+                                className="btn bg-[#00b795] text-white mt-4"
                             >
                                 <RiDownloadCloud2Line className="mr-2" />{" "}
                                 Download Image
