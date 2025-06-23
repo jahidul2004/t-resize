@@ -1,12 +1,51 @@
-# React + Vite
+# 📐 T-Resize – Simple & Smart Image Resizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+T-Resize is a fast, intuitive, and responsive image resizer web app built with **React**, **Tailwind CSS**, and **DaisyUI**. It allows users to **resize**, **compress**, and **download** images effortlessly — directly from the browser without needing any software.
 
-Currently, two official plugins are available:
+![Preview](https://cdn-icons-png.flaticon.com/128/179/179378.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📤 Drag & Drop or click-to-upload image
+- 🔒 Lock/unlock aspect ratio
+- 📏 Resize image by width & height
+- 🧩 Compress image by target file size (in KB)
+- 🔍 Live preview before download
+- ⬇️ One-click download of resized image
+- ✅ Fully responsive & mobile-friendly
+
+---
+
+## 🛠️ Built With
+
+- ⚛️ React + Vite
+- 🎨 Tailwind CSS
+- 🌼 DaisyUI
+- 🖼️ HTML5 Canvas API
+- 🍬 SweetAlert2
+
+---
+
+## 📷 Screenshots
+
+### 🖥️ Desktop View
+![Desktop](https://i.imgur.com/your-desktop-preview.png)
+
+### 📱 Mobile View
+![Mobile](https://i.imgur.com/your-mobile-preview.png)
+
+---
+
+## 💻 Getting Started
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/t-resize.git
+cd t-resize
+npm install
+npm run dev
+```
+The app will be running at http://localhost:5173.
