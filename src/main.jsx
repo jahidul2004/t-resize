@@ -7,6 +7,10 @@ import Resizer from "./pages/resizer/Resizer";
 import About from "./pages/about/About";
 import { Analytics } from "@vercel/analytics/react";
 
+// Service worker auto register (vite-plugin-pwa way)
+import { registerSW } from "virtual:pwa-register";
+registerSW({ immediate: true });
+
 const router = createBrowserRouter([
     {
         path: "/",
