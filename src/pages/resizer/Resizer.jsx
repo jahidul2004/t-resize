@@ -36,7 +36,7 @@ const Resizer = () => {
     const processImageFile = (file) => {
         setImage(file);
         setFileName(file.name);
-        setFileSize((file.size / 1024).toFixed(1)); // in KB
+        setFileSize((file.size / 1024).toFixed(1));
         const img = new Image();
         const url = URL.createObjectURL(file);
         setPreviewUrl(url);
@@ -146,7 +146,7 @@ const Resizer = () => {
                         isDragging
                             ? "border-[#00b795] bg-base-300 scale-[1.01]"
                             : "border-[#00b795]/50 hover:border-[#00b795]"
-                    } ${previewUrl ? "h-auto p-4" : "h-40"}`}
+                    } ${previewUrl ? "h-auto p-4" : "h-40 md:h-50 lg:h-60"}`}
                     onClick={openFileDialog}
                     onDrop={handleDrop}
                     onDragOver={handleDragOver}
