@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 import Resizer from "./pages/resizer/Resizer";
 import About from "./pages/about/About";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 
 const router = createBrowserRouter([
     {
@@ -17,9 +17,9 @@ const router = createBrowserRouter([
                 element: <Resizer></Resizer>,
             },
             {
-                path:"/about",
-                element:<About></About>
-            }
+                path: "/about",
+                element: <About></About>,
+            },
         ],
     },
 ]);
